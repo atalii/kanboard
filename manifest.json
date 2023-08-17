@@ -1,0 +1,29 @@
+{
+  "name": "kanboard",
+  "short_name": "kanboard",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "description": "Kanban project management software",
+  "icons": [
+    {
+      "src": "/assets/img/favicon-icon-webmanifest.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/assets/img/favicon-icon-webmanifest-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/img/favicon-icon-webmanifest-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/img/favicon-icon-webmanifest-32.png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/assets/img/favicon.png",
+      "sizes": "64x64"
+    }
+  ]
+}
