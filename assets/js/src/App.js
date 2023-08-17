@@ -120,3 +120,8 @@ Kanboard.App.prototype.showLoadingIcon = function() {
 Kanboard.App.prototype.hideLoadingIcon = function() {
     $("#app-loading-icon").remove();
 };
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("/assets/js/sw.js")
+        .then(r => {});
+}
